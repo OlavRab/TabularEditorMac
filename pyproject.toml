@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "aurora-tabular-modeller"
+version = "0.0.1"
+description = "Aurora Tabular Modeller brings local .bim functions from Tabular Editor 2 to Mac"
+authors = ["Olav van Rabenswaaij <olav.van.rabenswaaij@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyQt5 = "^5.15.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
